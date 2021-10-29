@@ -1,0 +1,440 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>XIII Cinema</title>
+    <!--CSS-->
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="lightslider.css" />
+
+    <!--JS-->
+    <script src="JQuery3.3.1.js"></script>
+    <script src="lightslider.js"></script>
+
+    <!--Icon Website-->
+    <link rel="shortcut icon" href="movieimage/logo.png" />
+
+    <!--Font Awesome link-->
+    <script
+      src="https://kit.fontawesome.com/c8e4d183c2.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+
+  <body>
+    <!--Nav-->
+    <nav>
+      <a href="#" class="logo">
+        <img src="movieimage/logo.png" />
+      </a>
+
+      <!--Menu button-->
+      <input type="checkbox" class="menu-btn" id="menu-btn">
+      <label class="menu-icon" for="menu-btn">
+          <span class="nav-icon"></span>
+      </label>
+
+      <!--Menu-->
+      <ul class="menu">
+        <li><a href="#">Home</a></li>
+        <li><a href="#">Movies</a></li>
+        <li><a href="#">TV Show</a></li>
+        <li><a href="#">Hollywood</a></li>
+        <li><a href="#">Horror</a></li>
+      </ul>
+
+      <!--Search-->
+      <div class="search">
+        <input type="text" placeholder="Find Your Favourite Movie" />
+
+        <!--IconSearch-->
+        <i class="fas fa-search"></i>
+      </div>
+    </nav>
+
+    <section id="main">
+      <!--Showcase Movie-->
+      <!--Heading-->
+      <h1 class="showcase-heading">Showcase</h1>
+
+      <ul id="autoWidth" class="cs-hidden">
+        <!--Showcase Box-->
+        <li class="item-a">
+          <div class="showcase-box">
+            <img src="movieimage/movie1.jpg" />
+          </div>
+        </li>
+        <li class="item-b">
+          <div class="showcase-box">
+            <img src="movieimage/movie2.jpg" />
+          </div>
+        </li>
+        <li class="item-c">
+          <div class="showcase-box">
+            <img src="movieimage/movie3.jpg" />
+          </div>
+        </li>
+        <li class="item-d">
+          <div class="showcase-box">
+            <img src="movieimage/movie4.jpg" />
+          </div>
+        </li>
+        <li class="item-e">
+          <div class="showcase-box">
+            <img src="movieimage/movie5.jpg" />
+          </div>
+        </li>
+      </ul>
+    </section>
+
+    <!--List Movie-->
+    <section id="list">
+      <h2 class="list-heading">Popular Movies</h2>
+
+      <ul id="autoWidth2" class="cs-hidden">
+
+        <li class="item-a">
+          <div class="list-box">
+            <div class="list-b-img">
+              <img src="movieimage/list1.jpg" />
+            </div>
+            <div class="list-b-text">
+              <strong>Shang-Chi (2021)</strong>
+              <p>Action, Advanture, Fantasy</p>
+              <span class="green">7.9</span>
+                <h3>Overview</h3>
+                <p1>Shang-Chi, the master of weaponry-based Kung Fu, is forced to confront his past after being drawn into the Ten Rings organization.</p1>
+           
+            </div>
+
+          </div>
+        </li>
+
+        <li class="item-b">
+            <div class="list-box">
+              <div class="list-b-img">
+                <img src="movieimage/list2.jpg" />
+              </div>
+              <div class="list-b-text">
+                <strong>The Great Wall (2016)</strong>
+                <p>Action, Advanture, Fantasy</p>
+                <span class="orange">5.9</span>
+              
+                <h3>Overview</h3>
+                <p1>In ancient China, a group of European mercenaries encounters a secret army that maintains and defends the Great Wall of China against a horde of monstrous creatures.</p1>
+              
+            </div>
+          </li>
+        
+          <li class="item-c">
+            <div class="list-box">
+              <div class="list-b-img">
+                <img src="movieimage/list3.jpg" />
+              </div>
+              <div class="list-b-text">
+                <strong>Dune (2021)</strong>
+                <p>Action, Adventure, Drama</p>
+                <span class="green">8.3</span>
+              
+                <h3>Overview</h3>
+                <p1>Feature adaptation of Frank Herbert's science fiction novel, about the son of a noble family entrusted with the protection of the most valuable asset and most vital element in the galaxy.</p1>
+              </div>
+            </div>
+          </li>
+
+          <li class="item-d">
+            <div class="list-box">
+              <div class="list-b-img">
+                <img src="movieimage/list4.jpg" />
+              </div>
+              <div class="list-b-text">
+                <strong>Interstellar (2014)</strong>
+                <p>Adventure, Drama, Sci-Fi</p>
+                <span class="green">8.6</span>
+              
+                <h3>Overview</h3>
+                <p1>A team of explorers travel through a wormhole in space in an attempt to ensure humanity's survival.</p1>
+              </div>
+            </div>
+          </li>
+
+          <li class="item-e">
+            <div class="list-box">
+              <div class="list-b-img">
+                <img src="movieimage/list5.jpg" />
+              </div>
+              <div class="list-b-text">
+                <strong>The Tomorrow War (2021)</strong>
+                <p>Action, Adventure, Drama</p>
+                <span class="orange">6.6</span>
+              
+                <h3>Overview</h3>
+                <p1>A family man is drafted to fight in a future war where the fate of humanity relies on his ability to confront the past.</p1>
+              </div>
+            </div>
+          </li>
+
+          <li class="item-f">
+            <div class="list-box">
+              <div class="list-b-img">
+                <img src="movieimage/list6.jpg" />
+              </div>
+              <div class="list-b-text">
+                <strong>American Sniper (2014)</strong>
+                <p>Action, Biography, Drama</p>
+                <span class="green">7.3</span>
+              
+                <h3>Overview</h3>
+                <p1>Navy S.E.A.L. sniper Chris Kyle's pinpoint accuracy saves countless lives on the battlefield and turns him into a legend. Back home with his family after four tours of duty, however, Chris finds that it is the war he can't leave behind.</p1>
+              </div>
+            </div>
+          </li>
+
+          <li class="item-g">
+            <div class="list-box">
+              <div class="list-b-img">
+                <img src="movieimage/list7.jpg" />
+              </div>
+              <div class="list-b-text">
+                <strong>Fury (2014) </strong>
+                <p>Action, Drama, War</p>
+                <span class="green">7.6</span>
+              
+                <h3>Overview</h3>
+                <p1>A grizzled tank commander makes tough decisions as he and his crew fight their way across Germany in April, 1945.</p1>
+
+              </div>
+            </div>
+          </li>
+
+          <li class="item-h">
+            <div class="list-box">
+              <div class="list-b-img">
+                <img src="movieimage/list9.jpg" />
+              </div>
+              <div class="list-b-text">
+                <strong>Black Widow (2021)</strong>
+                <p>Action, Adventure, Sci-Fi</p>
+                <span class="green">6.8</span>
+              
+                <h3>Overview</h3>
+                <p1>Natasha Romanoff confronts the darker parts of her ledger when a dangerous conspiracy with ties to her past arises.
+                </p1>
+
+              </div>
+            </div>
+          </li>
+
+          <li class="item-i">
+            <div class="list-box">
+              <div class="list-b-img">
+                <img src="movieimage/list10.jpg" />
+              </div>
+              <div class="list-b-text">
+                <strong>Jungle Cruise (2021)</strong>
+                <p>Action, Adventure, Comedy</p>
+                <span class="orange">6.6</span>
+              
+                <h3>Overview</h3>
+                <p1>Based on Disneyland's theme park ride where a small riverboat takes a group of travelers through a jungle filled with dangerous animals and reptiles but with a supernatural element.</p1>
+
+              </div>
+            </div>
+          </li>
+
+          <li class="item-j">
+            <div class="list-box">
+              <div class="list-b-img">
+                <img src="movieimage/list11.jpg" />
+              </div>
+              <div class="list-b-text">
+                <strong>Midway (2019)</strong>
+                <p>Action, Drama, History</p>
+                <span class="orange">6.7</span>
+              
+                <h3>Overview</h3>
+                <p1>The story of the Battle of Midway, told by the leaders and the sailors who fought it.</p1>
+
+              </div>
+            </div>
+          </li>
+
+          <li class="item-k">
+            <div class="list-box">
+              <div class="list-b-img">
+                <img src="movieimage/list12.jpg" />
+              </div>
+              <div class="list-b-text">
+                <strong>Godzilla vs Kong (2021) </strong>
+                <p>Action, Sci-Fi, Thriller</p>
+                <span class="orange">6.4</span>
+              
+                <h3>Overview</h3>
+                <p1>The epic next chapter in the cinematic Monsterverse pits two of the greatest icons in motion picture history against one another - the fearsome Godzilla and the mighty Kong - with humanity caught in the balance.</p1>
+
+              </div>
+            </div>
+          </li>
+
+          <li class="item-l">
+            <div class="list-box">
+              <div class="list-b-img">
+                <img src="movieimage/list13.jpg" />
+              </div>
+              <div class="list-b-text">
+                <strong>No Time To Die (2021)</strong>
+                <p>Action, Adventure, Thriller</p>
+                <span class="green">7.6</span>
+              
+                <h3>Overview</h3>
+                <p1>James Bond has left active service. His peace is short-lived when Felix Leiter, an old friend from the CIA, turns up asking for help, leading Bond onto the trail of a mysterious villain armed with dangerous new technology.</p1>
+
+              </div>
+            </div>
+          </li>
+
+      </ul>
+    </section>
+
+    <div class="movies-heading">
+        <h2>Movies</h2>
+    </div>
+
+    <section id="movies-list">
+        <div class="movies-box">
+            <div class="movies-img">
+                <div class="quality">HDRip</div>
+                <img src="movieimage/m1.jpg">
+            </div>
+            <a href="#">
+                The Suicide Squad (2021) Full Movie [In English] With English, Indonesia, Korea Subtitle | HDRip 1080 HD
+            </a>
+        </div>
+
+        <div class="movies-box">
+            <div class="movies-img">
+                <div class="quality">HDRip</div>
+                <img src="movieimage/m2.jpg">
+            </div>
+            <a href="#">
+                Venom (2021) Full Movie [In English] With English, Indonesia Subtitle | HDRip 1080 HD
+            </a>
+        </div>
+
+        <div class="movies-box">
+            <div class="movies-img">
+                <div class="quality">HDRip</div>
+                <img src="movieimage/m3.jpg">
+            </div>
+            <a href="#">
+                The Last Duel (2021) Full Movie [In English] With English Subtitle | HDRip 1080 HD
+            </a>
+        </div>
+
+        <div class="movies-box">
+            <div class="movies-img">
+                <div class="quality">HDRip</div>
+                <img src="movieimage/m4.jpg">
+            </div>
+            <a href="#">
+                Foundation (2021) Full Movie [In English] With English, Indonesia, Germany Subtitle | HDRip 1080 HD
+            </a>
+        </div>
+
+        <div class="movies-box">
+            <div class="movies-img">
+                <div class="quality">HDRip</div>
+                <img src="movieimage/m5.jpg">
+            </div>
+            <a href="#">
+                Y: The Last Man (2021) Full Movie [In English] With Indonesia Subtitle | HDRip 1080 HD
+            </a>
+        </div>
+
+        <div class="movies-box">
+            <div class="movies-img">
+                <div class="quality">HDRip</div>
+                <img src="movieimage/m6.jpg">
+            </div>
+            <a href="#">
+                Halloween (2018) Full Movie [In English] With English, Indonesia, Japanese, Korea Subtitle | HDRip 1080 HD
+            </a>
+        </div>
+
+        <div class="movies-box">
+            <div class="movies-img">
+                <div class="quality">HDRip</div>
+                <img src="movieimage/m7.jpg">
+            </div>
+            <a href="#">
+                Squid Game (2021) Full Movie [In English] With English, Indonesia, Korea Subtitle | HDRip 1080 HD
+            </a>
+        </div>
+
+        <div class="movies-box">
+            <div class="movies-img">
+                <div class="quality">HDRip</div>
+                <img src="movieimage/m8.jpg">
+            </div>
+            <a href="#">
+                The Forgotten Battle (2021) Full Movie [In English] With English, Indonesia, Russia Subtitle | HDRip 1080 HD
+            </a>
+        </div>
+
+        <div class="movies-box">
+            <div class="movies-img">
+                <div class="quality">HDRip</div>
+                <img src="movieimage/m9.jpg">
+            </div>
+            <a href="#">
+                Night Teeth (2021) Full Movie [In English] With English, Indonesia, Korea Subtitle | HDRip 1080 HD
+            </a>
+        </div>
+
+        <div class="movies-box">
+            <div class="movies-img">
+                <div class="quality">HDRip</div>
+                <img src="movieimage/m10.jpg">
+            </div>
+            <a href="#">
+                Free Guy (2021) Full Movie [In English] With English, Indonesia Subtitle | HDRip 1080 HD
+            </a>
+        </div>
+
+        <div class="movies-box">
+            <div class="movies-img">
+                <div class="quality">HDRip</div>
+                <img src="movieimage/m11.jpg">
+            </div>
+            <a href="#">
+                The Trip (2021) Full Movie [In English] With English Subtitle | HDRip 1080 HD
+            </a>
+        </div>
+
+        <div class="movies-box">
+            <div class="movies-img">
+                <div class="quality">HDRip</div>
+                <img src="movieimage/m12.jpg">
+            </div>
+            <a href="#">
+                Thor: Ragnarok (2018) Full Movie [In English] With English, Indonesia, Korea Subtitle | HDRip 1080 HD
+            </a>
+        </div>
+    </section>
+
+    <div class="buttons">
+        <a href="#">Previous</a>
+        <a href="#">Next</a>
+    </div>
+
+    <footer>
+        <p>Copyright 2021 - Nightlix</p>
+        <p>Made by Jonathan Audris H</p>
+    </footer>
+
+    <!--Slider Effect Script-->
+    <script src="system.js"></script>
+  </body>
+</html>
